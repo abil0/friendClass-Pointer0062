@@ -44,6 +44,12 @@ private:
         cout << "Masukkan panjang sisi pnjng : "; cin >> sisiPanjang;
     }
 
+    
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
+
 
 
 
