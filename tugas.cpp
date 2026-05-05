@@ -52,6 +52,18 @@ private:
     double keliling() {
         return 2 * (sisiPendek + sisiPanjang);
     }
+       
+    void output() {
+        cout << "\n--- Hasil Layang-Layang ---" << endl;
+        cout << "Luas     : " << luas() << endl;
+        cout << "Keliling : " << keliling() << endl;
+    }
+
+   
+    friend double BelahKetupat::hitungKelilingLayangLayang(LayangLayang& L);
+};
+
+
 
 
 
