@@ -15,6 +15,11 @@ public:
         cout << "Masukkan panjang diagonal 2 : "; cin >> d2;
         cout << "Masukkan panjang sisi       : "; cin >> sisi;
     }
+      
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
 
  
 
