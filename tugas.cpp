@@ -32,6 +32,12 @@ public:
     double hitungKelilingLayangLayang(LayangLayang& L);
 };
 
+class LayangLayang {
+private:
+    double d1, d2, sisiPendek, sisiPanjang;
+
+
+
 
 
 
