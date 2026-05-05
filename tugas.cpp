@@ -28,6 +28,11 @@ public:
         cout << "Luas     : " << luas() << endl;
         cout << "Keliling : " << keliling() << endl;
     }
+    
+    double hitungKelilingLayangLayang(LayangLayang& L);
+};
+
+
 
 
 
