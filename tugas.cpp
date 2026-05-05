@@ -63,6 +63,13 @@ private:
     friend double BelahKetupat::hitungKelilingLayangLayang(LayangLayang& L);
 };
 
+double BelahKetupat::hitungKelilingLayangLayang(LayangLayang& L) {
+    
+    return 2 * (L.sisiPendek + L.sisiPanjang);
+}
+
+
+
 
 
 
