@@ -23,6 +23,13 @@ public:
     double keliling() {
         return 4 * sisi;
     }
+    void output() {
+        cout << "\n--- Hasil Belah Ketupat ---" << endl;
+        cout << "Luas     : " << luas() << endl;
+        cout << "Keliling : " << keliling() << endl;
+    }
+
+
 
 
 
