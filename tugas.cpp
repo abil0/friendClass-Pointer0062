@@ -68,6 +68,26 @@ double BelahKetupat::hitungKelilingLayangLayang(LayangLayang& L) {
     return 2 * (L.sisiPendek + L.sisiPanjang);
 }
 
+int main() {
+
+    BelahKetupat objBelahKetupat;
+    LayangLayang objLayangLayang;
+
+    objBelahKetupat.input();
+    objBelahKetupat.output();
+
+    objLayangLayang.input();
+    objLayangLayang.output();
+
+    cout << "\n--- Uji Coba Friend Method ---" << endl;
+    cout << "Menghitung keliling Layang-Layang menggunakan method milik Belah Ketupat: " << endl;
+    
+    double kelilingFriend = objBelahKetupat.hitungKelilingLayangLayang(objLayangLayang);
+    
+    cout << "Hasil Keliling (via Friend) : " << kelilingFriend << endl;
+
+    return 0;
+}
 
 
 
