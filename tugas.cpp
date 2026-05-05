@@ -5,5 +5,10 @@ class LayangLayang;
 
 
 class BelahKetupat {
+    private:
+    double d1, d2, sisi;
+
+public:
+
 
 
